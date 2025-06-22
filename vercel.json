@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/jarvis.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    { "src": "/api/.*", "dest": "/api/jarvis.py" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}

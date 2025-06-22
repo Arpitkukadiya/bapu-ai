@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jarvis | Blockchain & Crypto Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 Ask Jarvis</h1>
+    <p class="subtitle">Your smart assistant for Blockchain & Cryptocurrency questions.</p>
+
+    <div class="card">
+      <input id="question" type="text" placeholder="Type your question here..." />
+      <button onclick="ask()">Ask Now</button>
+      <div class="output">
+        <p><strong>Answer:</strong></p>
+        <p id="answer" class="answer-box">—</p>
+        <div id="suggestions" class="suggestion-box"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>Made with 💡 by Arpit Kukadiya</footer>
+  <script src="script.js"></script>
+</body>
+</html>
